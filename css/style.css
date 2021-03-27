@@ -272,3 +272,18 @@ footer {
     font-size: 3rem;
   }
 }
+@media (max-width: 767px) {
+  .main-content button {
+    margin: 0 13rem;
+  }
+  .main-content img {
+    margin: 0;
+    border: none;
+  }
+  .portfolio-img {
+    width: 100%;
+  }
+  .portfolio-content p {
+    text-align: center;
+  }
+}
