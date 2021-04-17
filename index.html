@@ -1,189 +1,567 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Portfolio Web Developer</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- main file css -->
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/5c2cb51f22.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>LMSedu</title>
+</head>
+<body>
     
-    <section class="main">
-      <div class="container">
-        <div class="main-header">
-          <div class="row">
-            <div class="col-lg-4 col-md-12">
-              <div class="main-header-menu">
-                <a href="#work">Услуги</a>
-                <a href="#portfolio">Портфолио</a>
-                <a href="#adaptive">Стоимость</a>
-              </div>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <h1>LMS<small>edu</small></h1>
+                <div class="navbar__links">
+                <a href="#main" class="navbar__links__item">Home</a>
+                <a href="#courses" class="navbar__links__item">Courses</a>
+                <a href="#pages" class="navbar__links__item">Pages</a>
+                <a href="#blog" class="navbar__links__item">Blog</a>
+                <!-- navbar__links__item -->
+                </div>
+                <div class="navbar__profile">
+                    <div class="navbar__profile-buy">
+                        <img src="/img/icons/search.png" alt="" class="search">
+                        <img src="/img/icons/basket.png" alt="" class="basket">
+                    </div>
+                    <div class="navbar__profile-user">
+                        <div class="user">
+                            <img src="/img/icons/user.png" alt="" class="user__img">
+                            <a href="#" class="login">Register</a>
+                        </div>
+                        <div class="login">
+                            <img src="/img/icons/login.png" alt="" class="login__img">
+                            <a href="#" class="login">Login</a>
+                        </div>
+                    </div>
+                </div>
+                    
             </div>
-            <div class="col-lg-5 offset-lg-3 col-md-12">
-              <div class="main-header-contacts">
-                <a href="tel:+7(499)995-55-77">+7 (499) 995-55-77</a>
-                <button class="btn_call">Заказать звонок</button>
-              </div>
+            <!-- navbar__profile -->
+        <!-- container -->
+    </header>
+    <!-- header -->
+
+    <section id="main" class="main">
+        <div class="container">
+            <div class="main-content">
+                <h2 class="main__header__text">Learn Excilence in Teaching.</h2>        
+                <span class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                <button class="btn__red">EXPLORE COURSES</button>
+                <img src="/img/main.png" alt="" class="main-img">
             </div>
-          </div>
         </div>
-        <div class="main-content">
-          <div class="row">
-            <div class="col-lg-8 col-md-12">
-              <div class="main-content-text">
-                <h1>Дмитрий Алексеев</h1>
-                <p>Frontend-разработчик и веб-верстальщик</p>
-              </div>
-              <button class="btn_orange">Узнать больше</button>
-            </div>
-            <div class="col-lg-4 col-md-12 human-img">
-              <img src="/img/human.png" alt="human">
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-    <!-- Section Work -->
-    <section id="work" class="work">
-      <div class="container">
-        <div class="work-header text-center">
-          <h2>Что я делаю</h2>
+            <!-- main -->
+
+    <!-- section categories -->
+    <section id="courses" class="categories">
+        <div class="container">
+            <h2 class="categories__header">Course Categories</h2>
+            <div class="categories__line"></div>
+            <div class="categories__content">
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/1.png" alt="" class="categories__img">
+                        <p class="categories-text">Development</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/2.png" alt="" class="categories__img">
+                        <p class="categories-text">Software</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/3.png" alt="" class="categories__img">    
+                        <p class="categories-text">Design</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/4.png" alt="" class="categories__img">
+                        <p class="categories-text">Business</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/5.png" alt="" class="categories__img">
+                        <p class="categories-text">Lifestyle</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/6.png" alt="" class="categories__img">
+                        <p class="categories-text">Photography</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/7.png" alt="" class="categories__img">
+                        <p class="categories-text">Joomla</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/8.png" alt="" class="categories__img">
+                        <p class="categories-text">Wordpress</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/9.png" alt="" class="categories__img">
+                        <p class="categories-text">Language</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/10.png" alt="" class="categories__img">
+                        <p class="categories-text">Music</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/11.png" alt="" class="categories__img">
+                        <p class="categories-text">Photoshop</p>
+                    </div>
+                </div>
+                <div class="categories__block">
+                    <div class="categories__block__content">
+                        <img src="/img/categories/12.png" alt="" class="categories__img">
+                        <p class="categories-text">Medicine</p>
+                    </div>
+                </div>
+                <!-- caregories__block -->
+            </div>
         </div>
-        <div class="work-content">
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="work-content-block text-center">
-                <img src="/img/advantages/1.png" alt="work1">
-                <p>Вёрстка лендинг–страниц <br>
-                  и сайтов любой сложности</p>
-              </div>
+    </section>
+    <!-- section__categories -->
+
+    <section class="top">
+        <div class="container">
+            <div class="top__head">
+                <h2 class="head__header">Top Courses</h2>
+                <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Morbi bibendum venenatis mollis. </p>
+                <button class="btn__white">VIEW MORE</button>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="work-content-block text-center">
-                <img src="/img/advantages/2.png" alt="work2">
-                <p>Адаптивная вёрстка под все
-                  браузеры и устройства</p>
-              </div>
+            <!-- top__head -->
+            <div class="top__main">
+                <div class="top__blocks">
+                    <img src="/img/topcourses/top_course_1.png" alt="" class="top__courses__img">
+                    <h3 class="name">Conceptual Art, Photography and Wild Life</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/topcourses/top_course_2.png" alt="" class="top__courses__img woman__img">
+                    <h3 class="name">Lifestyle Archives - The Times to Change Your Life</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/topcourses/top_course_3.png" alt="" class="top__courses__img">
+                    <h3 class="name">Cambridge English Exam Preparation</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/topcourses/top_course_4.png" alt="" class="top__courses__img">
+                    <h3 class="name">Freelancing For Developers : A Complete Freelancing Course.</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/topcourses/top_course_5.png" alt="" class="top__courses__img">
+                    <h3 class="name">Introduction to Fusion of Acoustic Guitar</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/topcourses/top_course_6.png" alt="" class="top__courses__img">
+                    <h3 class="name">Basic Mathematics - Inroduction to Geometry</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="work-content-block text-center">
-                <img src="/img/advantages/3.png" alt="work3">
-                <p>Frontend–разработка <br>
-                  и программирование</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="work-content-block text-center">
-                <img src="/img/advantages/4.png" alt="work4">
-                <p>Исправление и доработка
-                  существующей вёрстки</p>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="col-lg-12 text-center work-btn">
-          <button class="btn_orange">Узнать стоимость</button>
+    </section>
+    <!-- section top -->
+
+    <!-- section popular -->
+    <section id="pages" class="popular">
+        <div class="container">
+            <h2 class="head__header">Discover Our Popular Course</h2>
+            <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Morbi bibendum venenatis mollis. </p>
+            <!-- <button class="btn__white"></button> -->
+            <div class="block__section">
+                <div class="block__discover">
+                    <p class="discover__text">Top Rated</p>
+                    <img src="/img/backgrounds/background_pink.png" alt="" class="bg__img">
+                </div>
+                <div class="block__discover text__pink">
+                    <p class="discover__text text__violet">Trending</p>
+                    <img src="/img/backgrounds/background_violet.png" alt="" class="bg__img">
+                </div>
+                <div class="block__discover block__discover-blue">
+                    <p class="discover__text text__blue">New and Noteworthy</p>
+                    <img src="/img/backgrounds/background_blue.png" alt="" class="bg__img">
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <!-- section__popular -->
+
+    <!-- section best -->
+    <section class="top best">
+        <div class="container">
+            <div class="top__head">
+                <h2 class="head__header">Best Sellers Course</h2>
+                <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Morbi bibendum venenatis mollis. </p>
+                <button class="btn__white">VIEW MORE</button>
+            </div>
+            <!-- top__head -->
+            <div class="top__main">
+                <div class="top__blocks">
+                    <img src="/img/bestcourses/bestcourse-1.png" alt="" class="top__courses__img">
+                    <h3 class="name">Conceptual Art, Photography and Wild Life</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/bestcourses/bestcourse-2.png" alt="" class="top__courses__img woman__img">
+                    <h3 class="name">Lifestyle Archives - The Times to Change Your Life</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/bestcourses/bestcourse-3.png" alt="" class="top__courses__img">
+                    <h3 class="name">Cambridge English Exam Preparation</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/bestcourses/bestcourse-4.png" alt="" class="top__courses__img">
+                    <h3 class="name">Freelancing For Developers : A Complete Freelancing Course.</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/bestcourses/bestcourse-5.png" alt="" class="top__courses__img">
+                    <h3 class="name">Introduction to Fusion of Acoustic Guitar</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/bestcourses/bestcourse-6.png" alt="" class="top__courses__img">
+                    <h3 class="name">Basic Mathematics - Inroduction to Geometry</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    <p class="price">$159.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section best -->
+
+    <!-- section advantages -->
+    <section class="advantages">
+        <div class="container">
+            <h2 class="head__header">Achieve Your Goals</h2>
+            <p class="head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Morbi bibendum venenatis mollis.</p>
+
+            <div class="top__main">
+                <div class="top__blocks">
+                    <img src="/img/advantages/1.png" alt="" class="top__courses__img img-center">
+                    <h3 class="name">Expand Skill Development</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/advantages/2.png" alt="" class="top__courses__img img-center">
+                    <h3 class="name">Expand Skill Development</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/advantages/3.png" alt="" class="top__courses__img img-center">
+                    <h3 class="name">Expand Skill Development</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/advantages/4.png" alt="" class="top__courses__img img-center">
+                    <h3 class="name">Expand Skill Development</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/advantages/5.png" alt="" class="top__courses__img img-center">
+                    <h3 class="name">Expand Skill Development</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                </div>
+                <div class="top__blocks">
+                    <img src="/img/advantages/6.png" alt="" class="top__courses__img img-center">
+                    <h3 class="name">Expand Skill Development</h3>
+                    <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac vulputate (...)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section advantages -->
+
+    <section class="review">
+        <div class="review__content container">
+            <div class="review__head">
+                <h2 class="review__title head__header">Client’s Appriciation</h2>
+                <p class="review__description head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Morbi bibendum venenatis mollis.</p>
+            </div>
+            <div class="review__main">
+                <div class="review__testimonial">
+                    <div class="review__review">
+                        <p class="review__review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a viverra nisl. Morbi in ornare nibh, sed efficitur neque. Proin efficitur odio eget pulvinar hendrerit.</p>
+                    </div>
+                    <div class="review__author">
+                        <div class="review__author-img">
+                            <img src="/img/review-icon.png" alt="men">
+                        </div>
+                        <div class="review__author-text">
+                            <h3 data-row class="review__author-name">John Doe</h3>
+                            <p class="review__author-rank">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review__img">
+                    <img src="/img/play.png" alt="" class="play">
+                    <img src="/img/review-img.png" alt="men" class="review__img-video">
+                </div>
+            </div>
+            <div class="trust">
+                <h4 class="trust__head">LMSedu is trusted by 322,000+ students and companies worldwide</h4>
+                <div class="trust__img">
+                    <img src="/img/icons/left_arrow.png" alt="" class="img__browser-arrow">
+                    <img src="/img/Envato_logo.png" alt="" class="img__browser img__browser-1">
+                    <img src="/img/logo_google.png" alt="" class="img__browser img__browser-2">
+                    <img src="/img/Envato_logo.png" alt="" class="img__browser img__browser-3">
+                    <img src="/img/logo_google.png" alt="" class="img__browser img__browser-4">
+                    <img src="/img/icons/right_arrow.png" alt="" class="img__browser-arrow">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section__review -->
+
+    <section id="blog" class="blog">
+        <div class="blog__content container">
+            <div class="blog__head">
+                <h2 class="blog__title head__header">Our Blog</h2>
+                <p class="blog__description head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Morbi bibendum venenatis mollis. Ut sem metus.</p>
+            </div>
+            <!-- blog__head -->
+            <div class="blog__main">
+                <div class="blog__blocks">
+                    <img src="/img/blog/blog-1.png" alt="">
+                    <div class="blog__info">
+                        <div class="blog__info-calendar">
+                            <img src="/img/icons/calendar.png" alt="" class="date">
+                            <p class="date__text">April 5, 2017</p>
+                        </div>
+                        <div class="blog__info-profile">
+                            <img src="/img/icons/user.png" alt="" class="profile__name">
+                            <p class="profile__name__text">John Doe</p>
+                        </div>
+                    </div>
+                    <div class="basic-text">
+                        <h3 class="name head__header">Learner Story: Alena – Exploring the Future Through Graphic Design</h3>
+                        <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="read-more">
+                            <p class="more">Read More</p>
+                            <img src="/img/icons/red-arrow.png" alt="">
+                        </div>
+                        <div class="rating">
+                            <div class="rating__likes">
+                                <img src="/img/icons/heart.png" alt="">
+                                <p class="count">(51)</p>
+                            </div>
+                            <div class="rating__comments">
+                                <img src="/img/icons/comment.png" alt="">
+                                <p class="count">(79)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__blocks">
+                    <img src="/img/blog/blog-2.png" alt="">
+                    <div class="blog__info">
+                        <div class="blog__info-calendar">
+                            <img src="/img/icons/calendar.png" alt="" class="date">
+                            <p class="date__text">April 5, 2017</p>
+                        </div>
+                        <div class="blog__info-profile">
+                            <img src="/img/icons/user.png" alt="" class="profile__name">
+                            <p class="profile__name__text">John Doe</p>
+                        </div>
+                    </div>
+                    <div class="basic-text">
+                        <h3 class="name head__header">6 Tips for Keeping Your Team Focused When the News (...)</h3>
+                        <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="read-more">
+                            <p class="more">Read More</p>
+                            <img src="/img/icons/red-arrow.png" alt="">
+                        </div>
+                        <div class="rating">
+                            <div class="rating__likes">
+                                <img src="/img/icons/heart.png" alt="">
+                                <p class="count">(51)</p>
+                            </div>
+                            <div class="rating__comments">
+                                <img src="/img/icons/comment.png" alt="">
+                                <p class="count">(79)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog__blocks blog__blocks-3">
+                    <img src="/img/blog/blog-3.png" alt="">
+                    <div class="blog__info">
+                        <div class="blog__info-calendar">
+                            <img src="/img/icons/calendar.png" alt="" class="date">
+                            <p class="date__text">April 5, 2017</p>
+                        </div>
+                        <div class="blog__info-profile">
+                            <img src="/img/icons/user.png" alt="" class="profile__name">
+                            <p class="profile__name__text">John Doe</p>
+                        </div>
+                    </div>
+                    <div class="basic-text">
+                        <h3 class="name head__header">Don’t Get Hung Up On Mistakes, Grow Past Them</h3>
+                        <p class="name__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum venenatis mollis. Ut sem metus, convallis a libero vel, suscipit </p>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="read-more">
+                            <p class="more">Read More</p>
+                            <img src="/img/icons/red-arrow.png" alt="">
+                        </div>
+                        <div class="rating">
+                            <div class="rating__likes">
+                                <img src="/img/icons/heart.png" alt="">
+                                <p class="count">(51)</p>
+                            </div>
+                            <div class="rating__comments">
+                                <img src="/img/icons/comment.png" alt="">
+                                <p class="count">(79)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blog__points">
+                <div class="point"></div>
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+    </section>
+    <!-- /.blog -->
+
+    <!-- section become -->
+    <section class="become">
+        <div class="become__content">
+            <h2 class="become__title head__header">Become A Instructor</h2>
+            <div class="send">
+                <div class="sending-form">
+                    <input type="text" placeholder="Become A Instructor" class="sending">
+                    <!-- input -->
+                    <div class="sending__btn">
+                        <button class="btn__red send-button">JOIN</button>
+                    </div>
+                    <!-- /.send-button -->
+                </div> 
+            </div>
+              
+             
+        </div>
     </section>
 
-    <!-- portfolio section -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="portfolio-header text-center">
-          <h2>Примеры моих работ</h2>
-        </div>
-        <div class="portfolio-content">
-          <div class="row">
-            <div class="col-lg-4 col-md-12">
-              <div class="portfolio-content-block">
-                <img class="portfolio-img" src="/img/work/1.png" alt="portfolio_1">
-                <p>Сайт психолога Веры Антоновой</p>
-              </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="personal-data">
+                <div class="address">
+                    <h5 class="footer__head">Address:</h5>
+                    <p class="footer__head-text">73724 Route 30 <br>
+                        South Richmond Hill, NY 11419</p>
+                </div>
+                <div class="contacts">
+                    <div class="contacts__phone">
+                        <h5 class="footer__head">Tel:</h5>
+                        <p class="footer__head-text">(603)-677-3400</p>
+                    </div>
+                    <div class="contacts__email">
+                        <h5 class="footer__head">Email:</h5>
+                        <p class="footer__head-text">info@yourdomain.com</p>
+                    </div>
+                    <div class="contacts__web">
+                        <h5 class="footer__head">Web:</h5>
+                        <p class="footer__head-text">yourdomain.com</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-12">
-              <div class="portfolio-content-block">
-                <img class="portfolio-img" src="/img/work/2.png" alt="portfolio_2">
-                <p>Сайт магазина детской одежды</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-              <div class="portfolio-content-block">
-                <img class="portfolio-img" src="/img/work/3.png" alt="portfolio_3">
-                <p>Сайт магазина «Рыболов»</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 text-center">
-          <button class="btn_orange">Заказать проект</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- adaptive block -->
-    <section id="adaptive" class="adaptive">
-      <div class="container">
-        <div class="adaptive-header">
-          <div class="row">
-            <div class="col-lg-12">
-              <h3>Адаптивная вёрстка под все устройства <br>
-                и браузеры от 1000 рублей всего за 4 часа.*</h3>
-              <p>* Срок и стоимость могут отличаться от заявленных и рассчитываются  индивидуально,
-                <br>
-                в зависимости от сложности задач.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- contacts section -->
-    <section class="contacts">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2 col-md-12">
-            <div class="contacts-menu">
-              <a href="#work">Услуги</a>
-              <a href="#portfolio">Портфолио</a>
-              <a href="#adaptive">Стоимость</a>
-            </div>
-          </div>
-          <div class="col-lg-3 offset-lg-2 col-md-12">
-            <div class="contacts_link">
-              <a href="tel:+7(499)995-77-55">
-                <img src="/img/phone.png" alt="phone">
-                +7 (499) 995-77-55
-              </a>
-              <a href="mailto:dmitry@alekseev.com">
-                <img src="/img/mail.png" alt="email">
-                dmitry@alekseev.com
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 offset-lg-2 col-md-12">
-            <div class="social">
-              <button class="btn_call button">Заказать звонок</button>
-              <a class="social_link" href="#"><i class="fab fa-vk"></i></a>
-              <a class="social_link" href="#"><i class="fab fa-facebook-f"></i></a>
-              <a class="social_link" href="#"><i class="fab fa-twitter"></i></a>
-              <a class="social_link" href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="text-center">
-      © Дмитрий Алексеев, 2016 – 2018
+            <div class="support">
+                    <div class="support__block">
+                            <h5 class="footer__head">Help Center:</h5>
+                            <p class="footer__head-text">Documentations</p>
+                            <p class="footer__head-text">Tutorials</p>
+                            <p class="footer__head-text">Term of Use</p>
+                            <p class="footer__head-text">Privacy Policy</p>
+                        </div>
+                    </div>
+                    <div class="support">
+                        <div class="support__block">
+                                <h5 class="footer__head">About Us:</h5>
+                                <p class="footer__head-text">Our Team</p>
+                                <p class="footer__head-text">Company</p>
+                                <p class="footer__head-text">Jobs</p>
+                                <p class="footer__head-text">News Latter</p>
+                            </div>
+                        </div>
+                        <div class="support">
+                            <div class="support__block">
+                                    <h5 class="footer__head">Tools:</h5>
+                                    <p class="footer__head-text">Create Account</p>
+                                    <p class="footer__head-text">Log In</p>
+                                    <p class="footer__head-text">Services</p>
+                                    <p class="footer__head-text">Sitemap</p>
+                                </div>
+                            </div>
+                            <div class="support">
+                                <div class="support__block">
+                                        <h5 class="footer__head">Get In Touch:</h5>
+                                        <p class="footer__head-text">Contact Us</p>
+                                        <p class="footer__head-text">Join Us</p>
+                                        <p class="footer__head-text">Invite Us</p>
+                                        <p class="footer__head-text">Donate</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- support__block -->
+                            <div class="container">
+                                <div class="footer__line"></div>
+                                <div class="footer-text footer__head-text">
+                                    <p class="social">Facebook. Twitter. Instagram. LinkedIn. Google Plus.</p>
+                                    <p class="copyright">Copyright © 2017 LMS EDUCATION. All Rights Reserved</p>
+                                </div>
+                            </div>
+                            
+    
     </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    
+
+
+
+
+</body>
 </html>
