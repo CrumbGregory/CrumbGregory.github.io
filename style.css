@@ -1034,6 +1034,13 @@ header small {
 }
 
 @media screen and (max-width: 320px) {
+  .top__blocks img {
+    width: 25.5rem;
+  }
+  .img-center-block img {
+    width: 10rem;
+    margin: 0 auto;
+  }
   .navbar__profile-buy {
     margin-right: 3rem;
   }
@@ -1054,6 +1061,14 @@ header small {
     display: block;
     text-align: center;
     height: 10rem;
+  }
+  .blog__blocks-img {
+    width: 25.5rem;
+    margin-left: 3rem;
+  }
+  .name {
+    font-size: 1rem;
+    text-align: center;
   }
   .support {
     margin-top: 5rem;
