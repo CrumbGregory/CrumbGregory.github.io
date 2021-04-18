@@ -13,6 +13,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 10px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -911,10 +913,6 @@ header small {
 }
 
 @media screen and (max-width: 992px) {
-  body {
-    width: 100rem;
-    overflow-x: hidden;
-  }
   .navbar {
     display: block;
     text-align: center;
