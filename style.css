@@ -107,7 +107,7 @@ header {
 }
 
 header .container {
-  max-width: 160rem;
+  width: 160rem;
   margin: 0 auto;
   width: 98%;
 }
@@ -911,6 +911,10 @@ header small {
 }
 
 @media screen and (max-width: 992px) {
+  body {
+    width: 100rem;
+    overflow-x: hidden;
+  }
   .navbar {
     display: block;
     text-align: center;
@@ -1037,6 +1041,9 @@ header small {
   .top__blocks img {
     width: 25.5rem;
   }
+  .woman__img {
+    height: 12.82rem;
+  }
   .img-center-block img {
     width: 10rem;
     margin: 0 auto;
@@ -1067,8 +1074,8 @@ header small {
     margin-left: 3rem;
   }
   .name {
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.5rem;
+    text-align: left;
   }
   .support {
     margin-top: 5rem;
