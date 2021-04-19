@@ -33,7 +33,6 @@ button {
 }
 
 .btn__red {
-  width: 31rem;
   padding: 2rem 4rem;
   letter-spacing: 0.16rem;
   border-radius: 5rem;
@@ -109,7 +108,7 @@ header {
 }
 
 header .container {
-  width: 160rem;
+  max-width: 160rem;
   margin: 0 auto;
   width: 98%;
 }
@@ -1036,21 +1035,50 @@ header small {
 }
 
 @media screen and (max-width: 320px) {
-  .top__blocks img {
-    width: 25.5rem;
-  }
-  .woman__img {
-    height: 12.82rem;
-  }
-  .img-center-block img {
-    width: 10rem;
-    margin: 0 auto;
-  }
   .navbar__profile-buy {
     margin-right: 3rem;
   }
+  .categories__block {
+    width: calc(100%);
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin: 1rem auto;
+  }
   .categories-text {
     font-size: 1rem;
+  }
+  .top__blocks {
+    max-width: 31rem;
+  }
+  .top__blocks img {
+    width: 90%;
+  }
+  .img-cent-1 img {
+    width: 9.7rem;
+    height: 7.5rem;
+  }
+  .img-cent-2 img {
+    width: 7.8rem;
+    height: 7.7rem;
+  }
+  .img-cent-3 img {
+    width: 8.6rem;
+    height: 7.6rem;
+  }
+  .img-cent-4 img {
+    width: 3.9rem;
+    height: 7.5rem;
+  }
+  .img-cent-5 img {
+    width: 9.1rem;
+    height: 7.6rem;
+  }
+  .img-cent-6 img {
+    width: 15.8rem;
+    height: 7.5rem;
+  }
+  .blog__blocks {
+    width: 31rem;
   }
   .sending-form {
     margin-top: -5rem;
@@ -1067,16 +1095,14 @@ header small {
     text-align: center;
     height: 10rem;
   }
-  .blog__blocks-img {
-    width: 25.5rem;
-    margin-left: 3rem;
-  }
-  .name {
-    font-size: 1.5rem;
-    text-align: left;
+  .footer {
+    padding: 5rem;
   }
   .support {
-    margin-top: 5rem;
+    margin-top: 1rem;
+  }
+  .footer__line {
+    margin-top: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
