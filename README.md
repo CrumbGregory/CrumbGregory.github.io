@@ -1,2 +1,2 @@
-# CrumbGregory.github.io
+# Янгузов Григорий
 my project
