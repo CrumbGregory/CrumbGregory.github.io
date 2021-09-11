@@ -3,220 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб-разработчик</title>
+    <link rel="stylesheet" href="/css/iconsfont.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
+    <!-- <div class="overlay-loader">
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
     
     <header>
         <nav>
             <div class="logo">Андрей Браун</div>
             <div class="menu">
                 <ul>
-                    <li>Обо мне</li>
-                    <li>Услуги</li>
-                    <li>Кейсы</li>
-                    <li>Прайс</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                    <li><a href="#"> Обо мне</a></li>
+                    <li> <a href="#"> Услуги</a></li>
+                    <li> <a href="#">Кейсы</a></li>
+                    <li> <a href="#">Прайс</a></li>
+                    <li> <a href="#">Отзывы</a> </li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     
-    <section class="main">
-        <div class="title__container">
-            <h1>Привет <br> Я Андрей Браун</h1>
-            <span>Фулл стек Веб-разработчик</span>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
-        </div>
-    </section>
-    
-
-    <section class="about">
-        <h2>ОБО МНЕ</h2>
-        <img src="/img/about.png" class="about_icon">
-        <p class="about_description about_description_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repudiandae veritatis quae sequi minus beatae molestias velit minima ea reprehenderit. </p>
-        <p class="about_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eum voluptas cumque deserunt quibusdam nostrum repellat, sapiente facilis libero? Laudantium.</p>
-        <button class="download"><img src="/img/download.png" class="download_img"> Скачать резюме</button>
-    </section>
-    
-    <section class="advantages">
-        <h2>ЧТО Я УМЕЮ</h2>
-        <wrapper class="advantages_blocks">
-            <div class="advantages_blocks_items">
-               <img src="/img/netb.png" alt="картинка" class="netb">
-                <p class="title_item">Веб-дизайн</p>
-                <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
+    <main>
+        <section class="main">
+            <div class="title__container">
+                <h1>Привет <br> Я Андрей Браун</h1>
+                <span>Фулл стек Веб-разработчик</span>
+                <button class="main_btn">Обо мне</button>
+                <button class="main_btn">Мои работы</button>
             </div>
-            <div class="advantages_blocks_items">
-               <img src="/img/dev.png" alt="картинка" class="develop">
-                <p class="title_item">Разработка</p>
-                <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
-            </div>
-            <div class="advantages_blocks_items">
-               <img src="/img/rac.png" alt="картинка" class="seo">
-                <p class="title_item">CEO-Оптимизация</p>
-                <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
-            </div>
-            <div class="advantages_blocks_items">
-               <img src="/img/grphone.png" alt="картинка" class="marketing">
-                <p class="title_item">Маркетинг</p>
-                <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
-            </div>
-        </wrapper>
-    </section>
-    
-    <section class="cases">
-        <h2>Кейсы</h2>
-        <span class="cases_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, consequuntur.</span>
-        <img src="/img/case.png" alt="" class="cases_img">
-        <div class="info_site">
-            <div class="info_site_client">
-                <h4>CLIENT:</h4>
-                <p class="info_site_description">Какая-то компания</p>
-            </div>
-            <div class="info_site_website">
-                <h4>WEBSITE:</h4>
-                <p class="info_site_description">http://www.somedomain.com</p>
-            </div>
-            
-            <button class="visit">VISIT LIVE SITE</button>
-            <div class="project">
-                <h4>Название проекта</h4>
-                <p class="project_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore ratione voluptatem enim velit quasi sit eius temporibus error? Veritatis quisquam, nobis vitae, esse aut earum deserunt architecto blanditiis optio quia magnam reprehenderit doloribus facere deleniti error, fuga. Perspiciatis in similique eaque minus rerum dicta harum! Excepturi odio tenetur possimus.</p>
-            </div>
-        </div>
+        </section>
         
-    </section>
-    
-    <section class="price">
-        <h3>Расчёт стоимости</h3>
-        <div class="price_wrap">
-            <div class="site_type">
-                <p class="price_title">ТИП САЙТА</p>
-                <input type="text" placeholder="Выберите пункт...">
-                <select name="list1" id="list">
-                    <option value="opt1"></option>
-                    <option value="opt2"></option>
-                </select>
-            </div>
-            <div class="design">
-                <p class="price_title">ДИЗАЙН</p>
-                <input type="text" placeholder="Выберите пункт...">
-                <select name="list1" id="list">
-                    <option value="opt1"></option>
-                    <option value="opt2"></option>
-                </select>
-            </div>
-            <div class="adaptive">
-                <p class="price_title">АДАПТИВНОСТЬ</p>
-                <input type="text" placeholder='Выберите пункт...'>
-                <select name="list1" id="list">
-                    <option value="opt1"></option>
-                    <option value="opt2"></option>
-                </select>
-            </div>
-            
-        </div>
         
-        <div class="price_description">
-            <p class="price_description_date">Сроки</p>
-            <p class="price_description_date_number">0</p>
-        </div>
-        <div class="price_description">
-            <p class="price_description_value">Стоимость</p>
-            <p class="price_description_value_number">0</p>
-        </div>
-    </section>
-    
-    
-    <section class="stat">
-        <h2>Немного статистики</h2>
-        <wrapper class="stat_blocks">
-            <div class="stat_blocks_items">
-               <img src="/img/smile.png" alt="" class="smile">
-                <p class="stat_title_item">120</p>
-                <p class="stat_description_item">Счастливых клиентов</p>
-            </div>
-            <div class="stat_blocks_items">
-               <img src="/img/stdev.png" alt="" class="stdev">
-                <p class="stat_title_item">4,600</p>
-                <p class="stat_description_item">Часов работы</p>
-            </div>
-            <div class="stat_blocks_items">
-               <img src="/img/done.png" alt="" class="done">
-                <p class="stat_title_item">340</p>
-                <p class="stat_description_item">Проектов завершено</p>
-            </div>
-            <div class="stat_blocks_items">
-               <img src="/img/cub.png" alt="" class="cub">
-                <p class="stat_title_item">23</p>
-                <p class="stat_description_item">Наград получено</p>
-            </div>
-        </wrapper>
-    </section>
-    
-    
-    <section class="reviews">
-        <h2>Отзывы</h2>
-        <div class="reviews_slider">
-           <img src="/img/reviews.png" alt="" class="reviews_slider_icon">
-            <p class="reviews_slider_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit odio consequuntur ipsum molestias, fugit. Maxime quas cum ab ipsum architecto reiciendis officia, asperiores est 
-            qui!</p>
-            <p class="reviews_slider_description"><b>Михаил,</b>Ген директор ПАО "Газпром".</p>
-        </div>
-    </section>
-    
-    <section class="contacts">
-        <h2>Мои контакты</h2>
-        <span class="contacts_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, consequuntur.</span>
-            <div class="contacts_items">
-                <div class="contacts_items_map">
-                    <img src="/img/geo.png" alt="" class="map">
-                    <p class="map_description">Санкт-Петербург <br> Невский проспект 11</p>
+        <section class="about">
+            <h2>ОБО МНЕ</h2>
+            <img src="/img/about.png" class="about_icon">
+            <p class="about_description about_description_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repudiandae veritatis quae sequi minus beatae molestias velit minima ea reprehenderit. </p>
+            <p class="about_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eum voluptas cumque deserunt quibusdam nostrum repellat, sapiente facilis libero? Laudantium.</p>
+            <button class="download fas fa-download"">Скачать резюме</button>
+        </section>
+        
+        <section class="advantages">
+            <h2>ЧТО Я УМЕЮ</h2>
+            <wrapper class="advantages_blocks">
+                <div class="advantages_blocks_items">
+                   <img src="/img/netb.png" alt="картинка" class="netb">
+                    <p class="title_item">Веб-дизайн</p>
+                    <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
                 </div>
-                <div class="contacts_items_mail">
-                    <img src="/img/convert.png" alt="" class="mail">
-                    <a href="mailto:info@companyname.com">info@companyname.com</a>
+                <div class="advantages_blocks_items">
+                   <img src="/img/dev.png" alt="картинка" class="develop">
+                    <p class="title_item">Разработка</p>
+                    <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
                 </div>
-                <div class="contacts_items_phone">
-                    <img src="/img/phone.png" alt="" class="phone">
-                    <a href="tel:+799999999999">+7 999 999-99-99</a>
+                <div class="advantages_blocks_items">
+                   <img src="/img/rac.png" alt="картинка" class="seo">
+                    <p class="title_item">CEO-Оптимизация</p>
+                    <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
+                </div>
+                <div class="advantages_blocks_items">
+                   <img src="/img/grphone.png" alt="картинка" class="marketing">
+                    <p class="title_item">Маркетинг</p>
+                    <p class="description_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, excepturi!</p>
+                </div>
+            </wrapper>
+        </section>
+        
+        <section class="cases">
+            <h2>Кейсы</h2>
+            <span class="cases_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, consequuntur.</span>
+            <img src="/img/case.png" alt="" class="cases_img">
+            <div class="info_site">
+                <div class="info_site_client">
+                    <h4>CLIENT:</h4>
+                    <p class="info_site_description">Какая-то компания</p>
+                </div>
+                <div class="info_site_website">
+                    <h4>WEBSITE:</h4>
+                    <p class="info_site_description">http://www.somedomain.com</p>
+                </div>
+                
+                <button class="visit">VISIT LIVE SITE</button>
+                <div class="project">
+                    <h4>Название проекта</h4>
+                    <p class="project_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore ratione voluptatem enim velit quasi sit eius temporibus error? Veritatis quisquam, nobis vitae, esse aut earum deserunt architecto blanditiis optio quia magnam reprehenderit doloribus facere deleniti error, fuga. Perspiciatis in similique eaque minus rerum dicta harum! Excepturi odio tenetur possimus.</p>
                 </div>
             </div>
-        
-        <div class="resp">
-            <h5>Оставьте мне сообщение</h5>
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Email">
-            <textarea name="name1" id="1" cols="50" rows="5" placeholder="Сообщение"></textarea>
             
-            <button class="send">Отправить</button>
-        </div>
+        </section>
         
-        <div class="social">
-            <img src="/img/fb.png" alt="" class="fb">
-            <img src="/img/twit.png" alt="" class="twitter">
-            <img src="/img/ball.png" alt="" class="web">
-            <img src="/img/git.png" alt="" class="git">
-            <img src="/img/inst.png" alt="" class="inst">
-            <img src="/img/in.png" alt="" class="in">
-        </div>
-    </section>
+        <section class="price">
+            <h3>Расчёт стоимости</h3>
+            <div class="price_wrap">
+                <div class="site_type">
+                    <p class="price_title">ТИП САЙТА</p>
+                    <input type="text" placeholder="Выберите пункт...">
+                    <select name="list1" id="list">
+                        <option value="opt1"></option>
+                        <option value="opt2"></option>
+                    </select>
+                </div>
+                <div class="design">
+                    <p class="price_title">ДИЗАЙН</p>
+                    <input type="text" placeholder="Выберите пункт...">
+                    <select name="list1" id="list">
+                        <option value="opt1"></option>
+                        <option value="opt2"></option>
+                    </select>
+                </div>
+                <div class="adaptive">
+                    <p class="price_title">АДАПТИВНОСТЬ</p>
+                    <input type="text" placeholder='Выберите пункт...'>
+                    <select name="list1" id="list">
+                        <option value="opt1"></option>
+                        <option value="opt2"></option>
+                    </select>
+                </div>
+                
+            </div>
+            
+            <div class="price_description">
+                <p class="price_description_date">Сроки</p>
+                <p class="price_description_date_number">0</p>
+            </div>
+            <div class="price_description">
+                <p class="price_description_value">Стоимость</p>
+                <p class="price_description_value_number">0</p>
+            </div>
+        </section>
+        
+        
+        <section class="stat">
+            <h2>Немного статистики</h2>
+            <wrapper class="stat_blocks">
+                <div class="stat_blocks_items">
+                   <img src="/img/smile.png" alt="" class="smile">
+                    <p class="stat_title_item">120</p>
+                    <p class="stat_description_item">СЧАСТИЛИВЫХ КЛИЕНТВО</p>
+                </div>
+                <div class="stat_blocks_items">
+                   <img src="/img/stdev.png" alt="" class="stdev">
+                    <p class="stat_title_item">4,600</p>
+                    <p class="stat_description_item">ЧАСОВ РАБОТЫ</p>
+                </div>
+                <div class="stat_blocks_items">
+                   <img src="/img/done.png" alt="" class="done">
+                    <p class="stat_title_item">340</p>
+                    <p class="stat_description_item">ПРОЕКТОВ ЗАВЕРШЕНО</p>
+                </div>
+                <div class="stat_blocks_items">
+                   <img src="/img/cub.png" alt="" class="cub">
+                    <p class="stat_title_item">23</p>
+                    <p class="stat_description_item">НАГРАД ПОЛУЧЕНО</p>
+                </div>
+            </wrapper>
+        </section>
+        
+        
+        <section class="reviews">
+            <h2>Отзывы</h2>
+            <div class="reviews_slider">
+               <img src="/img/reviews.png" alt="" class="reviews_slider_icon">
+                <p class="reviews_slider_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit odio consequuntur ipsum molestias, fugit. Maxime quas cum ab ipsum architecto reiciendis officia, asperiores est 
+                qui!</p>
+                <p class="reviews_slider_description"><b>Михаил,</b>Ген директор ПАО "Газпром".</p>
+            </div>
+        </section>
+        
+        <section class="contacts">
+            <h2>Мои контакты</h2>
+            <span class="contacts_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, consequuntur.</span>
+                <div class="contacts_items">
+                    <div class="contacts_items_map">
+                        <img src="/img/geo.png" alt="" class="map">
+                        <p class="map_description">Санкт-Петербург <br> Невский проспект 11</p>
+                    </div>
+                    <div class="contacts_items_mail">
+                        <img src="/img/convert.png" alt="" class="mail">
+                        <a href="mailto:info@companyname.com">info@companyname.com</a>
+                    </div>
+                    <div class="contacts_items_phone">
+                        <img src="/img/phone.png" alt="" class="phone">
+                        <a href="tel:+799999999999">+7 999 999-99-99</a>
+                    </div>
+                </div>
+            
+            <div class="resp">
+                <h5>Оставьте мне сообщение</h5>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Email">
+                <textarea name="name1" id="1" cols="50" rows="5" placeholder="Сообщение"></textarea>
+                
+                <button class="send">Отправить</button>
+            </div>
+            
+            <div class="social">
+                <img src="/img/fb.png" alt="" class="fb">
+                <img src="/img/twit.png" alt="" class="twitter">
+                <img src="/img/ball.png" alt="" class="web">
+                <img src="/img/git.png" alt="" class="git">
+                <img src="/img/inst.png" alt="" class="inst">
+                <img src="/img/in.png" alt="" class="in">
+            </div>
+        </section>
+        
+        
+        
+        <section class="map">
+            <img src="/img/mapa.png" alt="" class="mapa">
+        </section>
+        
+        <footer class="footer">
+            <p class="copyright">Copyright©2021 Андрей Браун Design by Web</p>
+        </footer>
+    </main>
     
     
     
-    <section class="map">
-        <img src="/img/mapa.png" alt="" class="mapa">
-    </section>
-    
-    
-    
-    <footer>
-    <p class="copyright">Copyright©2021 Андрей Браун Design by Web</p>
-    </footer>
     
 
 </body>
